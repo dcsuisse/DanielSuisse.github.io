@@ -1,0 +1,165 @@
+body {
+    background-color: #eaeaea;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#wrapper {
+    width: 80%;
+    background-image: linear-gradient(to bottom, #FFFFFF, teal);
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 960px;
+    max-width: 2048px;
+    min-height: 750px;
+    box-shadow: 3px 3px 3px #333333;
+    border-style: solid;
+    border: 1px #000033;
+    background-color: #90C7E3;
+}
+
+header {
+    background-color: #002171;
+    color: lightcyan;
+    background-image: url(images/forest.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    line-height: 600%;
+    text-align: center;
+}
+
+nav {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1.5em;
+    font-size: 100%;
+    float: left;
+    width: 160px;
+
+}
+
+nav a {
+    text-decoration: none;
+
+}
+
+nav a:link {
+    color: blue;
+}
+
+nav a:visited {
+    color: #90C7E3;
+}
+
+nav a:hover {
+    color: black;
+    transition: color 1s linear;
+}
+
+nav ul {
+    list-style-type: none;
+    font-size: 1.2em;
+    margin: 0%;
+    padding-left: 0%;
+}
+
+h2 {
+    color: #1976D2;
+    font-family: Georgia, 'Times New Roman', serif;
+    text-shadow: 1px 1px 1px #CCCCCC;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+main {
+    background-color: lightcyan;
+    padding: 1px 20px 30px;
+    margin-left: 190px;
+    display: block;
+    overflow: auto;
+    min-height: 700px;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+
+}
+
+input,
+textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    margin-left: 140px;
+}
+
+section {
+    float: left;
+    width: 40%;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+dt {
+    color: #002171;
+}
+
+h1 {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 3em;
+    letter-spacing: 0.25em;
+}
+
+h3 {
+    color: #000033;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+table {
+    text-align: left;
+    border: solid 2px darkblue;
+    border-collapse: collapse;
+}
+
+th {
+    border: solid 2px black;
+    padding: 0.5em;
+}
+
+td {
+    border: solid 2px darkblue;
+    padding: 0.5em;
+    text-align: left;
+}
+
+tr:nth-of-type(odd) {
+    background-color: lightskyblue;
+}
+
+footer {
+    background-color: #FFFFFF;
+    font-size: 75%;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', serif;
+    text-align: center;
+    padding: 2em;
+    margin-left: 190px;
+}
+
+#contact {
+    font-size: 90%;
+    text-align: center;
+    margin-top: 10%;
+}
